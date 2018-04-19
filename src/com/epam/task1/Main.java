@@ -1,9 +1,11 @@
 package com.epam.task1;
 
+import com.epam.task1.help.VanLauncher;
+
 public class Main {
 
     public static void main(String[] args) {
-        Van van = new Van();
-        van.launchVan();
+        VanLauncher launcher = new VanLauncher();
+        launcher.launchVan();
     }
 }

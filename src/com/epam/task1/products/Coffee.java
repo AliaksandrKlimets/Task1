@@ -1,4 +1,5 @@
-package com.epam.task1;
+package com.epam.task1.products;
+
 
 public class Coffee {
     private String physicalState;
@@ -9,12 +10,12 @@ public class Coffee {
     private double weight;
 
     public Coffee(String physicalState, String kind, double amount, double packAmount, double cost, double weight){
-     this.physicalState=physicalState;
-     this.kind=kind;
-     this.amount=amount;
-     this.packAmount=packAmount;
-     this.cost=cost;
-     this.weight=weight;
+        this.physicalState=physicalState;
+        this.kind=kind;
+        this.amount=amount;
+        this.packAmount=packAmount;
+        this.cost=cost;
+        this.weight=weight;
     }
 
     public double getAmount() {
